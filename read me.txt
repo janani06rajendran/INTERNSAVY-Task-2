@@ -1,0 +1,52 @@
+
+                                                   INTERNSAVY TASK 
+Creating a Tic-Tac-Toe game in Java using  can be done in the following steps:
+
+1. Set up the project:
+   - Launch Visual Studio Code and create a new Java project.
+   - Create a new Java class named "TicTacToeGame" to house the game logic.
+
+2. Initialize the game board:
+   - Create a 3x3 2D array to represent the game board.
+   - Populate the array with empty markers (e.g., " " or "_") to represent available spots.
+
+3. Define the players and their markers:
+   - Create variables to store player names and their respective markers (e.g., "X" and "O").
+
+4. Implement the game loop:
+   - Use a while loop to keep the game running until there is a winner or a draw.
+   - Display the current state of the game board.
+
+5. Get user input:
+   - Prompt the current player for their move (e.g., row and column) using the Scanner class.
+   - Validate the input to ensure it's within the valid range and an available spot.
+
+6. Update the game board:
+   - Place the current player's marker on the selected spot on the board.
+
+7. Check for a win or draw:
+   - After each move, check for a winning condition (three in a row horizontally, vertically, or diagonally) or a draw (no available spots).
+   - If there is a winner or a draw, exit the game loop.
+
+8. Switch players:
+   - Alternate between players after each successful move.
+
+9. Display the result:
+   - If there's a winner, display the player's name.
+   - If it's a draw, display a draw message.
+
+10. Allow replay:
+   - Ask the players if they want to play again.
+   - If yes, reset the game board and repeat the game loop.
+   - If no, exit the program.
+
+11. Test thoroughly:
+   - Run the game and check for any bugs or issues.
+   - Make sure all game conditions are handled correctly.
+
+12. Optional: Enhancements:
+   - Add more user-friendly features like displaying row and column labels on the board.
+   - Implement error handling to handle invalid inputs gracefully.
+   - Create an AI opponent to play against the player.
+
+Remember to break down each step into functions to keep the code organized and easy to maintain. Following these steps, you can create a functional Tic-Tac-Toe game in Java using Visual Studio Code within 400 words.
